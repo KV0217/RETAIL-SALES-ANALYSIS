@@ -1,262 +1,100 @@
-# Retail Sales Revenue Forecasting: ARIMA vs LSTM
+# 🛒 Retail Sales Revenue Prediction
 
-## 📊 Project Overview
+End-to-end retail analytics project combining order-level regression, time series forecasting, and SQL analytics on Superstore data. Uses XGBoost Regressor for order-level prediction, Facebook Prophet for 90-day revenue forecasting, ARIMA for statistical decomposition, and LSTM for deep learning forecasting — all compared side by side.
 
-This project compares two time series forecasting approaches for retail sales revenue prediction:
-- **ARIMA (Autoregressive Integrated Moving Average)** - Statistical approach
-- **LSTM (Long Short-Term Memory)** - Deep learning approach
+## 🔍 What Makes This Unique
+- **Three-Layer Forecasting** — XGBoost (order level) + Prophet (90-day) + ARIMA (decomposition) + LSTM (deep learning) — four approaches compared on same dataset
+- **SQL Analytics** — 19 SQL queries covering Basic → Advanced Window Functions, RFM segmentation, CLV, Pareto analysis, MoM/YoY growth
+- **Pareto Analysis** — identifies which 20% of sub-categories drive 80% of revenue with running cumulative window
+- **What-If Discount Analysis** — shows optimal discount level for maximum predicted revenue
+- **Seasonality Decomposition** — trend + seasonality + residual breakdown via ARIMA and Prophet components
+- **RFM Segmentation** — fully written in SQL using NTILE window function
+- **Business Insights** — automated recommendations from SQL results including loss-making products and discount impact
 
-Includes complete analysis, metrics, visualizations, and business recommendations.
+## 📊 Dataset
+Superstore Sales — 9,994 orders × 21 columns
+Sales · Profit · Discount · Quantity · Category · Region · Segment
 
-## 🎯 Key Results
-
-| Model | MAPE | MAE | RMSE | Training Time | Best For |
-|-------|------|-----|------|---------------|----------|
-| **LSTM** | 6.78% | $1,456 | $1,923 | 2 minutes | High accuracy |
-| ARIMA | 9.34% | $2,154 | $2,847 | <1 second | Simplicity |
-
-**Recommendation:** Choose based on priority - LSTM for accuracy, ARIMA for speed and interpretability.
-
-
-### What You'll See
-- Section 16: ARIMA decomposition and forecasting
-- Section 17: LSTM neural network training
-- Section 18: Side-by-side model comparison
-- 12+ visualizations (decomposition, training history, residuals, etc.)
+## 🛠️ Tech Stack
+Python · XGBoost · Scikit-learn · Facebook Prophet · Statsmodels (ARIMA) · TensorFlow/Keras (LSTM) · SHAP · SQLite · Matplotlib · Seaborn
 
 ## 📁 Project Structure
+| File | Description |
+|------|-------------|
+| `retail-sales-revenue.ipynb` | Full notebook |
+| `requirements.txt` | Dependencies |
 
-```
-retail-sales-forecasting/
-├── README.md                          (This file)
-├── requirements.txt                   (Dependencies)
-├── .gitignore                         (Git ignore rules)
-├── LICENSE                            (MIT License)
-└── retail-sales-revenue-enhanced.ipynb  (Main notebook - 19 sections)
-```
+## 🔍 Key Sections
+| # | Section | What it does |
+|---|---------|-------------|
+Libraries + Load Data | Superstore CSV + SQLite setup |
+SQL Analytics | 19 queries — KPIs, RFM, CLV, Pareto, YoY |
+SQL Visualizations | 6 charts from SQL query results |
+Business Insights | Auto-generated recommendations from SQL |
+EDA | Revenue by category, region, segment, trend |
+Feature Engineering | ShipDays · IsQ4 · IsHighSeason · DiscountImpact |
+Model Comparison | Linear · Ridge · Lasso · RF · GB · XGBoost |
+Actual vs Predicted | Scatter + residuals plot |
+Hyperparameter Tuning | RandomizedSearchCV on XGBoost |
+SHAP | Feature importance + beeswarm |
+Pareto Analysis | 80/20 revenue rule + top customers |
+What-If Analysis | Discount level vs predicted revenue |
+Prediction System | Interactive menu — single / batch / examples |
+Category × Region Heatmap | Revenue by combination |
+Seasonality Analysis | Monthly + quarterly + YoY trends |
+Prophet Forecast | 90-day forecast + confidence intervals |
+ARIMA Forecast | Stationarity test + decomposition + 3-month forecast |
+LSTM Forecast | Deep learning time series forecasting |
+Model Comparison | Prophet vs ARIMA vs LSTM side-by-side |
 
-## 📈 What You'll Learn
+## 📈 Regression Results
+| Model | Metric |
+|-------|--------|
+| Linear Regression | Baseline |
+| Ridge Regression | Regularized |
+| Random Forest | ~R² 0.XX |
+| Gradient Boosting | ~R² 0.XX |
+| **XGBoost (Tuned)** | **Best R²** |
 
-### Data Analysis
-- Seasonal decomposition (trend, seasonality, residuals)
-- Stationarity testing (ADF test)
-- Autocorrelation analysis (ACF/PACF)
-
-### Statistical Forecasting (ARIMA)
-- Model selection and parameter tuning
-- Confidence intervals (95% CI)
-- Residual diagnostics
-- MAPE: 9.34%
-
-### Deep Learning (LSTM)
-- Neural network architecture (3 layers, dropout regularization)
-- Training with early stopping
-- Non-linear pattern capture
-- MAPE: 6.78%
-
-### Model Comparison
-- Direct metrics comparison (RMSE, MAE, MAPE)
-- Prediction overlay visualization
-- Residual analysis and Q-Q plots
-- Business recommendations
-
-## 💡 Business Insights
-
-Your retail sales data reveals:
-
-**Pattern 1: Clear Seasonality**
-- Q4 (Nov-Dec): +10-15% above average (holiday peak)
-- Q1 (Jan-Mar): -5-8% below average (post-holiday dip)
-- Q2-Q3: Stable baseline
-
-**Pattern 2: Steady Growth**
-- Starting (2014): $22,000/month
-- Ending (2017): $26,000/month
-- Growth rate: 4.2% annually
-
-**Pattern 3: 92% of Variation Explained**
-- Clear patterns make forecasting reliable
-- Only 8% random noise
-- Predictions highly trustworthy
-
-## 📊 Business Recommendations
-
-### Financial Impact
-- **Better inventory decisions:** $15,000/year saved
-- **Reduced analyst time:** $30,000/year saved
-- **Improved cash flow:** $8,000/year saved
-- **Fewer stockouts:** $5,000/year saved
-- **Total annual benefit:** $58,000
-
-### Action Items
-1. Deploy LSTM for monthly revenue forecasting
-2. Plan inventory build-up for September (before Q4)
-3. Hire temporary staff in August (6-8 week lead time)
-4. Set aside Q4 profits for Q1 cash flow shortfalls
-5. Monitor accuracy monthly (target: <10% MAPE)
-
-## 🔍 Key Metrics Explained
-
-### MAPE (Mean Absolute Percentage Error)
-- LSTM: 6.78% - forecasts within ±$1,600/month
-- ARIMA: 9.34% - forecasts within ±$2,200/month
-- Industry standard: <10% is excellent
-
-### MAE (Mean Absolute Error)
-- Average dollar error in predictions
-- LSTM: $1,456 vs ARIMA: $2,154
-
-### RMSE (Root Mean Squared Error)
-- Penalizes large errors more heavily
-- LSTM: $1,923 vs ARIMA: $2,847
-
-## 📚 Documentation
-
-**Inside the Notebook:**
-- Cell-by-cell explanations of all code
-- Detailed comments on model selection
-- Interpretation of all charts and metrics
-
-**In comments:**
-- Why ARIMA is (1,1,1) - parameter justification
-- LSTM architecture rationale
-- Metric interpretation for business users
-
-## 🧪 How to Interpret Results
-
-### If LSTM MAPE is Lower
-✅ Use LSTM for maximum accuracy in forecasting
-- Better captures non-linear patterns
-- But: requires more computational resources
-- Trade-off: complexity for 2-3% accuracy gain
-
-### If ARIMA MAPE is Lower
-✅ Use ARIMA for simplicity and speed
-- Fully interpretable to stakeholders
-- Instant forecasts (<1 second)
-- Trade-off: slightly less accurate but more practical
-
-### If Similar Performance
-✅ Use ensemble approach (50% LSTM + 50% ARIMA)
-- Combines accuracy with interpretability
-- More robust to market changes
-
-## 📖 Understanding the Notebook
-
-### Sections (Original Analysis)
-SQL analysis, descriptive statistics, ML profit margin prediction
-
-### ARIMA
-- Stationarity test
-- Seasonal decomposition (4 panels)
-- ACF/PACF analysis
-- Model fitting and forecasting
-- Metrics: RMSE, MAE, MAPE
-
-### LSTM
-- Data preparation and normalization
-- Neural network architecture (3 layers)
-- Training with early stopping
-- Prediction and evaluation
-- Metrics: RMSE, MAE, MAPE
-
-### Comparison
-- Side-by-side metrics table
-- 3 performance charts (RMSE, MAE, MAPE)
-- Prediction overlay visualization
-- Residual analysis
-- Final recommendations
-
-## 🎓 Model Selection Decision Matrix
-
-| Need | Choose | Why |
-|------|--------|-----|
-| Maximum accuracy | LSTM | 6.78% MAPE (vs 9.34%) |
-| Explainability | ARIMA | Interpretable patterns |
-| Speed | ARIMA | <1 second (vs 2 min) |
-| Confidence intervals | ARIMA | Built-in uncertainty |
-| Non-linear capture | LSTM | Deep learning power |
-| Simple deployment | ARIMA | No GPU needed |
-| Best of both | Ensemble | 50% LSTM + 50% ARIMA |
-
-## ⚙️ Requirements
-
-- Python 3.9+
-- pandas, numpy (data processing)
-- matplotlib, seaborn (visualization)
-- scikit-learn (preprocessing & metrics)
-- statsmodels (ARIMA)
-- tensorflow, keras (LSTM)
-- jupyter (notebook)
-
-See `requirements.txt` for specific versions.
-
-## 🔧 Customization Options
-
-### Try Different ARIMA Orders
-```python
-ARIMA(ts_train, order=(2, 1, 2))  # Change from (1,1,1)
+## 🗄️ SQL Highlights
+```sql
+-- RFM Segmentation (NTILE + 3-level CTE)
+WITH rfm AS (
+    SELECT Customer_ID, MAX(Order_Date) AS last_order,
+           COUNT(DISTINCT Order_ID) AS frequency,
+           ROUND(SUM(Sales),0) AS monetary
+    FROM superstore GROUP BY Customer_ID
+),
+scored AS (
+    SELECT *,
+        NTILE(5) OVER (ORDER BY last_order DESC) AS recency_score,
+        NTILE(5) OVER (ORDER BY frequency DESC)   AS frequency_score,
+        NTILE(5) OVER (ORDER BY monetary DESC)    AS monetary_score
+    FROM rfm
+)
+SELECT CASE WHEN recency_score>=4 AND frequency_score>=4
+             AND monetary_score>=4 THEN '🏆 Champions'
+            WHEN recency_score<=2 AND frequency_score<=2
+            THEN '😴 At Risk' ELSE '📦 Regular' END AS rfm_segment,
+       COUNT(*) AS customers
+FROM scored GROUP BY rfm_segment
 ```
 
-### Modify LSTM Architecture
-```python
-LSTM(units=100, return_sequences=True)  # More neurons
-Dropout(0.3)  # More regularization
-```
+## 🔑 Key Insights
+- Heavy discounting (40%+) results in negative profit margins
+- Technology category drives highest average order value
+- Q4 (Nov-Dec) is consistently the peak revenue quarter
+- West region has highest total revenue
+- 3-4 sub-categories drive ~80% of total revenue (Pareto)
 
-### Adjust Time Periods
-```python
-decompose(ts, period=6)  # 6-month seasonality instead of 12
-```
+## 💡 Forecasting Comparison
+| Model | Type | Best For |
+|-------|------|----------|
+| XGBoost | Regression | Order-level prediction |
+| Prophet | Time Series | Long-term trend + seasonality |
+| ARIMA | Statistical | Short-term + decomposition |
+| LSTM | Deep Learning | Complex sequential patterns |
 
-## 📞 Common Questions
-
-**Q: Which model should I use?**
-A: LSTM for accuracy (6.78% vs 9.34%). ARIMA for simplicity. Both work well for your data.
-
-**Q: How confident are the forecasts?**
-A: LSTM ±$1,600/month at 95% confidence. ARIMA ±$2,200/month. Check residual plots.
-
-**Q: Can I use this for other products?**
-A: Yes! This approach works for any time series. Retrain with your own data.
-
-**Q: What if my data pattern changes?**
-A: Monitor MAPE monthly. If >15%, investigate. Retrain model with new data.
-
-**Q: Do I need GPU?**
-A: No, but GPU makes LSTM 10× faster. Works fine on CPU for monthly forecasts.
-
-## 📊 Expected Outcomes
-
-**Within 1 Month:**
-- Understand your seasonal patterns
-- Choose preferred forecasting model
-- Generate first forecasts
-
-**Within 3 Months:**
-- Integrate forecasts into planning
-- Measure accuracy improvement
-- Optimize inventory/staffing
-
-**Within 6 Months:**
-- $50K+ annual savings from better forecasting
-- Reduced inventory holding costs
-- Improved cash flow planning
-- Better staffing decisions
-
-## 📝 License
-
-MIT License - See LICENSE file for details
-
-## 👤 KAVIN VENKAT ##
-
-- LinkedIn: (www.linkedin.com/in/kavin-venkat-1710s0202)
-
-
-## 🙏 Acknowledgments
-
-- Data: Superstore Sales Dataset
-- Methods: ARIMA from statsmodels, LSTM from TensorFlow/Keras
-- Inspiration: Time series forecasting best practices
-
-
+## 👤 Author
+**KAVIN VENKAT**
+[LinkedIn](www.linkedin.com/in/kavin-venkat-1710s0202) 
