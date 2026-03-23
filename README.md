@@ -9,9 +9,7 @@ End-to-end retail analytics project combining order-level regression, time serie
 | API Docs | https://sales-profit-api.onrender.com/docs |
 
 ## Screenshots
-![API Docs](screenshots/api_docs.png)
-![Predict Response](screenshots/predict_response.png)
-![What-If Response](screenshots/whatif_response.png)
+![API Demo](screenshots/streamlit_api_demo.png)
 
 
 ## 🔍 What Makes This Unique
