@@ -2,6 +2,18 @@
 
 End-to-end retail analytics project combining order-level regression, time series forecasting, and SQL analytics on Superstore data. Uses XGBoost Regressor for order-level prediction, Facebook Prophet for 90-day revenue forecasting, ARIMA for statistical decomposition, and LSTM for deep learning forecasting — all compared side by side.
 
+## Live Deployments
+| | URL |
+|--|--|
+| REST API | https://sales-profit-api.onrender.com |
+| API Docs | https://sales-profit-api.onrender.com/docs |
+
+## Screenshots
+![API Docs](screenshots/api_docs.png)
+![Predict Response](screenshots/predict_response.png)
+![What-If Response](screenshots/whatif_response.png)
+
+
 ## 🔍 What Makes This Unique
 - **Three-Layer Forecasting** — XGBoost (order level) + Prophet (90-day) + ARIMA (decomposition) + LSTM (deep learning) — four approaches compared on same dataset
 - **SQL Analytics** — 19 SQL queries covering Basic → Advanced Window Functions, RFM segmentation, CLV, Pareto analysis, MoM/YoY growth
@@ -15,37 +27,28 @@ End-to-end retail analytics project combining order-level regression, time serie
 Superstore Sales — 9,994 orders × 21 columns
 Sales · Profit · Discount · Quantity · Category · Region · Segment
 
-## 🛠️ Tech Stack
-Python · XGBoost · Scikit-learn · Facebook Prophet · Statsmodels (ARIMA) · TensorFlow/Keras (LSTM) · SHAP · SQLite · Matplotlib · Seaborn
+## Tech Stack
+Python · Gradient Boosting · Prophet · ARIMA · LSTM · SHAP · FastAPI · Docker · SQLite · Render
 
-## 📁 Project Structure
-| File | Description |
-|------|-------------|
-| `retail-sales-revenue.ipynb` | Full notebook |
-| `requirements.txt` | Dependencies |
+## What's Inside
+- 4-model comparison: Linear, Ridge, Random Forest, Gradient Boosting
+- Feature engineering: Discount_x_Quantity, High_Discount, Is_Q4
+- ARIMA + LSTM time series forecasting
+- 19 advanced SQL queries: RFM, CLV, Pareto 80/20, MoM/YoY growth
+- What-If discount analysis
 
-## 🔍 Key Sections
-| # | Section | What it does |
-|---|---------|-------------|
-Libraries + Load Data | Superstore CSV + SQLite setup |
-SQL Analytics | 19 queries — KPIs, RFM, CLV, Pareto, YoY |
-SQL Visualizations | 6 charts from SQL query results |
-Business Insights | Auto-generated recommendations from SQL |
-EDA | Revenue by category, region, segment, trend |
-Feature Engineering | ShipDays · IsQ4 · IsHighSeason · DiscountImpact |
-Model Comparison | Linear · Ridge · Lasso · RF · GB · XGBoost |
-Actual vs Predicted | Scatter + residuals plot |
-Hyperparameter Tuning | RandomizedSearchCV on XGBoost |
-SHAP | Feature importance + beeswarm |
-Pareto Analysis | 80/20 revenue rule + top customers |
-What-If Analysis | Discount level vs predicted revenue |
-Prediction System | Interactive menu — single / batch / examples |
-Category × Region Heatmap | Revenue by combination |
-Seasonality Analysis | Monthly + quarterly + YoY trends |
-Prophet Forecast | 90-day forecast + confidence intervals |
-ARIMA Forecast | Stationarity test + decomposition + 3-month forecast |
-LSTM Forecast | Deep learning time series forecasting |
-Model Comparison | Prophet vs ARIMA vs LSTM side-by-side |
+## Unique API Feature — /whatif Endpoint
+Send an order and instantly compare profit margin at different discount levels:
+```json
+{
+  "current_discount": "20%",  "current_margin": "8.38%",
+  "reduce_10pct_discount": { "margin": "13.36%", "improvement": "4.98pp" },
+  "zero_discount": { "margin": "24.82%", "improvement": "16.44pp" }
+}
+```
+
+## Related
+- API repo: [Sales-Profit-API](https://github.com/KV0217/Sales-Profit-API)
 
 ## 📈 Regression Results
 | Model | Metric |
