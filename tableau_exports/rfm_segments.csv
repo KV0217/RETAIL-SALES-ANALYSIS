@@ -1,0 +1,501 @@
+Customer_ID,Segment,Recency_Days,Frequency,Monetary_USD,RFM_Score,Churn_Risk,CLV_Estimate_USD,Pareto_Group
+CUST_00001,Potential Loyalists,145,20,217.58,42.86,Medium,12396.0,Remaining 80%
+CUST_00002,New Customers,201,22,430.31,48.8,Medium,24282.04,Remaining 80%
+CUST_00003,At Risk,212,28,81.56,57.29,High,6720.51,Remaining 80%
+CUST_00004,At Risk,220,40,256.36,83.02,High,18279.04,Remaining 80%
+CUST_00005,Loyal Customers,240,49,24.56,98.66,Low,2315.38,Remaining 80%
+CUST_00006,Loyal Customers,46,7,873.74,24.87,Low,19189.33,Pareto Top 20%
+CUST_00007,Champions,35,1,88.74,5.67,Low,190.35,Remaining 80%
+CUST_00008,New Customers,253,32,186.58,66.26,Medium,9229.22,Remaining 80%
+CUST_00009,At Risk,82,13,29.3,27.5,High,688.51,Remaining 80%
+CUST_00010,At Risk,256,30,303.03,63.42,High,17702.06,Remaining 80%
+CUST_00011,Champions,197,23,936.67,55.87,Low,73563.11,Pareto Top 20%
+CUST_00012,New Customers,303,19,268.91,41.02,Medium,13519.6,Remaining 80%
+CUST_00013,Lost Customers,10,32,118.92,74.28,Critical,12807.06,Remaining 80%
+CUST_00014,Loyal Customers,312,30,720.6,67.53,Low,57294.76,Remaining 80%
+CUST_00015,Loyal Customers,286,29,797.49,66.32,Low,56863.08,Pareto Top 20%
+CUST_00016,Loyal Customers,242,49,115.43,99.57,Low,12033.04,Remaining 80%
+CUST_00017,Loyal Customers,251,45,756.7,97.96,Low,92372.93,Remaining 80%
+CUST_00018,Potential Loyalists,5,29,1491.55,89.58,Medium,76924.43,Pareto Top 20%
+CUST_00019,Potential Loyalists,119,30,110.99,61.94,Medium,10976.43,Remaining 80%
+CUST_00020,Loyal Customers,289,16,756.98,39.91,Low,38256.74,Remaining 80%
+CUST_00021,At Risk,65,40,636.48,87.88,High,54356.99,Remaining 80%
+CUST_00022,Champions,146,19,340.82,42.09,Low,22053.2,Remaining 80%
+CUST_00023,Loyal Customers,224,18,49.83,36.94,Low,2825.72,Remaining 80%
+CUST_00024,Potential Loyalists,239,1,58.82,3.0,Medium,166.61,Remaining 80%
+CUST_00025,Potential Loyalists,177,14,976.67,38.33,Medium,23839.86,Pareto Top 20%
+CUST_00026,Lost Customers,267,47,2330.06,117.67,Critical,269014.74,Pareto Top 20%
+CUST_00027,Loyal Customers,341,2,583.59,10.13,Low,2932.21,Remaining 80%
+CUST_00028,Potential Loyalists,282,28,315.26,59.51,Medium,17346.51,Remaining 80%
+CUST_00029,At Risk,63,49,541.46,104.98,High,44040.52,Remaining 80%
+CUST_00030,Champions,217,30,471.19,65.17,Low,43162.61,Remaining 80%
+CUST_00031,At Risk,342,38,261.94,78.91,High,17359.99,Remaining 80%
+CUST_00032,Loyal Customers,315,4,53.94,8.86,Low,580.09,Remaining 80%
+CUST_00033,Champions,283,1,881.62,11.17,Low,2973.61,Pareto Top 20%
+CUST_00034,New Customers,177,8,252.48,19.09,Medium,6568.94,Remaining 80%
+CUST_00035,New Customers,98,29,874.04,67.75,Medium,52101.22,Pareto Top 20%
+CUST_00036,Lost Customers,105,39,165.52,80.6,Critical,20675.6,Remaining 80%
+CUST_00037,Loyal Customers,99,3,20.52,7.21,Low,92.38,Remaining 80%
+CUST_00038,Champions,311,32,106.55,65.39,Low,5235.02,Remaining 80%
+CUST_00039,At Risk,6,10,336.06,37.65,High,9090.78,Remaining 80%
+CUST_00040,Potential Loyalists,197,10,1463.92,35.14,Medium,32639.51,Pareto Top 20%
+CUST_00041,Champions,351,19,73.9,39.02,Low,3191.41,Remaining 80%
+CUST_00042,Potential Loyalists,133,46,982.79,102.57,Medium,118847.4,Pareto Top 20%
+CUST_00043,Champions,358,34,394.36,72.22,Low,25255.29,Remaining 80%
+CUST_00044,New Customers,259,33,894.12,75.33,Medium,56755.03,Pareto Top 20%
+CUST_00045,Loyal Customers,23,23,197.18,52.14,Low,11198.18,Remaining 80%
+CUST_00046,At Risk,53,28,936.13,67.21,High,78857.9,Pareto Top 20%
+CUST_00047,Loyal Customers,165,32,761.01,72.21,Low,66700.89,Remaining 80%
+CUST_00048,Potential Loyalists,202,7,150.72,16.0,Medium,2210.0,Remaining 80%
+CUST_00049,Potential Loyalists,83,29,90.4,60.09,Medium,6188.74,Remaining 80%
+CUST_00050,Loyal Customers,145,8,1032.68,27.01,Low,15212.03,Pareto Top 20%
+CUST_00051,New Customers,85,1,1671.63,19.88,Medium,2756.95,Pareto Top 20%
+CUST_00052,Lost Customers,78,3,35.9,7.62,Critical,330.14,Remaining 80%
+CUST_00053,New Customers,1,24,677.02,104.77,Medium,32997.0,Remaining 80%
+CUST_00054,New Customers,51,23,1221.34,60.14,Medium,52123.44,Pareto Top 20%
+CUST_00055,At Risk,173,8,993.72,26.51,High,22921.04,Pareto Top 20%
+CUST_00056,New Customers,205,47,1689.4,111.38,Medium,217251.53,Pareto Top 20%
+CUST_00057,Champions,260,37,733.75,81.72,Low,75103.74,Remaining 80%
+CUST_00058,Loyal Customers,288,3,311.97,9.47,Low,1832.31,Remaining 80%
+CUST_00059,Champions,34,33,206.95,70.93,Low,13421.66,Remaining 80%
+CUST_00060,Loyal Customers,348,28,213.38,58.42,Low,11600.39,Remaining 80%
+CUST_00061,Potential Loyalists,95,47,664.44,101.69,Medium,57695.15,Remaining 80%
+CUST_00062,Loyal Customers,72,8,704.89,24.42,Low,15854.09,Remaining 80%
+CUST_00063,Lost Customers,39,34,131.8,71.82,Critical,14322.06,Remaining 80%
+CUST_00064,Potential Loyalists,154,35,1032.94,80.97,Medium,106601.7,Pareto Top 20%
+CUST_00065,Loyal Customers,250,32,647.5,70.87,Low,63904.36,Remaining 80%
+CUST_00066,Potential Loyalists,162,24,433.63,52.95,Medium,24036.25,Remaining 80%
+CUST_00067,Champions,118,14,338.89,32.23,Low,13323.16,Remaining 80%
+CUST_00068,Lost Customers,259,32,411.79,68.5,Critical,29101.66,Remaining 80%
+CUST_00069,Champions,306,46,106.73,93.39,Low,12524.38,Remaining 80%
+CUST_00070,New Customers,268,43,133.89,87.71,Medium,14181.71,Remaining 80%
+CUST_00071,Lost Customers,54,16,67.8,34.5,Critical,2010.97,Remaining 80%
+CUST_00072,Loyal Customers,236,4,103.42,9.46,Low,940.77,Remaining 80%
+CUST_00073,Champions,222,37,322.29,77.67,Low,40873.74,Remaining 80%
+CUST_00074,Lost Customers,251,21,397.89,46.38,Critical,16687.65,Remaining 80%
+CUST_00075,At Risk,313,14,29.01,28.61,High,717.9,Remaining 80%
+CUST_00076,At Risk,112,31,816.78,71.05,High,59177.34,Pareto Top 20%
+CUST_00077,Lost Customers,255,48,194.19,98.33,Critical,28715.35,Remaining 80%
+CUST_00078,Champions,303,18,1234.28,48.67,Low,59192.78,Pareto Top 20%
+CUST_00079,Potential Loyalists,207,7,1733.43,31.82,Medium,34726.93,Pareto Top 20%
+CUST_00080,Champions,229,10,122.57,21.66,Low,2303.57,Remaining 80%
+CUST_00081,New Customers,341,7,330.04,17.59,Medium,6325.31,Remaining 80%
+CUST_00082,At Risk,66,33,20.62,67.7,High,1460.95,Remaining 80%
+CUST_00083,Loyal Customers,75,23,476.06,52.08,Low,34694.28,Remaining 80%
+CUST_00084,Champions,103,21,487.36,47.84,Low,28233.03,Remaining 80%
+CUST_00085,Loyal Customers,192,19,162.2,40.14,Low,5848.37,Remaining 80%
+CUST_00086,Loyal Customers,252,48,428.69,100.68,Low,33524.93,Remaining 80%
+CUST_00087,At Risk,226,19,147.79,39.92,High,4451.44,Remaining 80%
+CUST_00088,At Risk,294,36,107.67,73.42,High,8693.43,Remaining 80%
+CUST_00089,New Customers,306,29,547.09,63.8,Medium,32234.2,Remaining 80%
+CUST_00090,Potential Loyalists,98,18,217.21,39.18,Medium,10916.81,Remaining 80%
+CUST_00091,Champions,338,2,466.12,8.96,Low,2329.36,Remaining 80%
+CUST_00092,At Risk,286,1,303.92,5.39,High,617.58,Remaining 80%
+CUST_00093,Lost Customers,335,47,2098.69,115.28,Critical,177398.81,Pareto Top 20%
+CUST_00094,At Risk,347,5,101.01,11.3,High,886.06,Remaining 80%
+CUST_00095,Lost Customers,308,20,332.37,43.65,Critical,21466.59,Remaining 80%
+CUST_00096,Potential Loyalists,249,11,590.43,28.3,Medium,12904.74,Remaining 80%
+CUST_00097,Potential Loyalists,166,42,271.71,87.32,Medium,31992.14,Remaining 80%
+CUST_00098,Potential Loyalists,335,2,1858.47,22.88,Medium,11601.95,Pareto Top 20%
+CUST_00099,Champions,30,3,659.87,15.82,Low,5400.7,Remaining 80%
+CUST_00100,Champions,247,23,554.99,51.95,Low,41091.46,Remaining 80%
+CUST_00101,Champions,106,12,727.47,32.21,Low,19945.37,Remaining 80%
+CUST_00102,At Risk,51,20,1545.08,57.37,High,105449.99,Pareto Top 20%
+CUST_00103,Loyal Customers,81,5,1212.0,23.34,Low,10703.72,Pareto Top 20%
+CUST_00104,Potential Loyalists,133,37,664.19,81.39,Medium,41883.2,Remaining 80%
+CUST_00105,New Customers,285,38,711.47,83.46,Medium,76170.41,Remaining 80%
+CUST_00106,Loyal Customers,138,30,98.87,61.71,Low,10042.21,Remaining 80%
+CUST_00107,Potential Loyalists,184,9,74.23,19.28,Medium,2082.89,Remaining 80%
+CUST_00108,Lost Customers,330,34,443.04,72.73,Critical,24897.23,Remaining 80%
+CUST_00109,Loyal Customers,273,44,29.27,88.66,Low,2651.4,Remaining 80%
+CUST_00110,Champions,340,35,349.23,73.79,Low,41077.24,Remaining 80%
+CUST_00111,Loyal Customers,69,22,138.08,46.81,Low,6094.1,Remaining 80%
+CUST_00112,Loyal Customers,34,44,232.34,93.18,Low,31306.19,Remaining 80%
+CUST_00113,New Customers,262,24,767.62,56.06,Medium,58036.94,Pareto Top 20%
+CUST_00114,Lost Customers,53,17,1437.13,50.22,Critical,60855.8,Pareto Top 20%
+CUST_00115,At Risk,205,10,57.59,21.06,High,1308.85,Remaining 80%
+CUST_00116,New Customers,126,30,402.04,64.81,Medium,28949.88,Remaining 80%
+CUST_00117,Lost Customers,235,46,1090.8,103.33,Critical,98041.92,Pareto Top 20%
+CUST_00118,Loyal Customers,43,23,63.06,48.9,Low,4755.48,Remaining 80%
+CUST_00119,New Customers,240,32,890.1,73.32,Medium,68394.98,Pareto Top 20%
+CUST_00120,Potential Loyalists,111,17,241.43,37.31,Medium,13400.24,Remaining 80%
+CUST_00121,Lost Customers,249,17,214.37,36.54,Critical,6236.79,Remaining 80%
+CUST_00122,New Customers,151,14,1916.37,47.82,Medium,93273.0,Pareto Top 20%
+CUST_00123,Loyal Customers,183,9,132.11,19.86,Low,2837.58,Remaining 80%
+CUST_00124,Champions,336,40,610.77,86.4,Low,38983.29,Remaining 80%
+CUST_00125,Loyal Customers,95,2,881.42,13.86,Low,2778.31,Pareto Top 20%
+CUST_00126,Potential Loyalists,8,45,41.03,101.52,Medium,5525.04,Remaining 80%
+CUST_00127,Lost Customers,360,25,574.92,56.03,Critical,40504.14,Remaining 80%
+CUST_00128,New Customers,184,39,1533.61,93.88,Medium,185668.31,Pareto Top 20%
+CUST_00129,Champions,281,9,86.32,19.22,Low,1329.04,Remaining 80%
+CUST_00130,Potential Loyalists,195,22,1152.75,56.04,Medium,39844.94,Pareto Top 20%
+CUST_00131,Potential Loyalists,352,43,471.66,91.0,Medium,51051.45,Remaining 80%
+CUST_00132,Loyal Customers,195,46,499.34,97.5,Low,52260.31,Remaining 80%
+CUST_00133,Champions,155,4,494.59,13.59,Low,4795.33,Remaining 80%
+CUST_00134,Loyal Customers,93,26,197.51,55.04,Low,17887.02,Remaining 80%
+CUST_00135,New Customers,160,29,1388.24,72.5,Medium,138551.21,Pareto Top 20%
+CUST_00136,Loyal Customers,61,45,1492.05,106.53,Low,227251.73,Pareto Top 20%
+CUST_00137,Potential Loyalists,122,34,510.82,73.92,Medium,53279.19,Remaining 80%
+CUST_00138,At Risk,51,23,784.9,55.77,High,39890.74,Pareto Top 20%
+CUST_00139,Potential Loyalists,277,37,493.71,79.3,Medium,42457.92,Remaining 80%
+CUST_00140,New Customers,5,11,351.21,42.18,Medium,10041.64,Remaining 80%
+CUST_00141,New Customers,92,6,560.61,18.68,Medium,10632.76,Remaining 80%
+CUST_00142,Loyal Customers,170,18,422.6,40.81,Low,12455.57,Remaining 80%
+CUST_00143,Potential Loyalists,317,21,475.0,47.06,Medium,23427.22,Remaining 80%
+CUST_00144,Loyal Customers,22,42,785.85,96.21,Low,54962.26,Pareto Top 20%
+CUST_00145,Loyal Customers,326,36,347.83,75.78,Low,31671.78,Remaining 80%
+CUST_00146,Champions,1,41,40.8,132.41,Low,5516.56,Remaining 80%
+CUST_00147,At Risk,133,38,109.56,77.84,High,12760.33,Remaining 80%
+CUST_00148,Potential Loyalists,233,34,308.67,71.51,Medium,20524.48,Remaining 80%
+CUST_00149,Champions,12,17,665.18,48.34,Low,39035.22,Remaining 80%
+CUST_00150,Loyal Customers,346,37,469.81,78.99,Low,49275.52,Remaining 80%
+CUST_00151,New Customers,46,25,545.33,57.58,Medium,20734.2,Remaining 80%
+CUST_00152,Loyal Customers,34,38,346.27,82.32,Low,26458.98,Remaining 80%
+CUST_00153,Champions,78,12,498.22,30.25,Low,12085.38,Remaining 80%
+CUST_00154,Potential Loyalists,218,23,219.51,48.65,Medium,8272.39,Remaining 80%
+CUST_00155,New Customers,301,42,337.61,87.71,Medium,48489.38,Remaining 80%
+CUST_00156,Loyal Customers,73,22,701.83,52.37,Low,37929.16,Remaining 80%
+CUST_00157,At Risk,282,21,1047.21,52.83,High,72387.57,Pareto Top 20%
+CUST_00158,Lost Customers,249,27,304.28,57.44,Critical,17617.7,Remaining 80%
+CUST_00159,Loyal Customers,47,31,42.32,64.51,Low,2296.47,Remaining 80%
+CUST_00160,At Risk,121,6,108.17,13.9,High,1589.24,Remaining 80%
+CUST_00161,Potential Loyalists,214,27,30.54,54.77,Medium,1424.8,Remaining 80%
+CUST_00162,At Risk,239,40,549.59,85.91,High,54344.14,Remaining 80%
+CUST_00163,At Risk,56,34,221.97,71.97,High,25211.4,Remaining 80%
+CUST_00164,Potential Loyalists,350,12,410.97,28.39,Medium,12533.94,Remaining 80%
+CUST_00165,Champions,107,45,359.9,94.52,Low,44262.29,Remaining 80%
+CUST_00166,Lost Customers,319,7,62.52,14.94,Critical,793.56,Remaining 80%
+CUST_00167,Loyal Customers,48,10,278.14,24.82,Low,4415.39,Remaining 80%
+CUST_00168,Loyal Customers,61,45,144.59,93.06,Low,11201.78,Remaining 80%
+CUST_00169,Champions,337,17,290.99,37.21,Low,13341.91,Remaining 80%
+CUST_00170,At Risk,26,26,133.81,57.04,High,5879.69,Remaining 80%
+CUST_00171,At Risk,292,21,937.71,51.72,High,44345.9,Pareto Top 20%
+CUST_00172,Champions,257,28,115.7,57.54,Low,8423.56,Remaining 80%
+CUST_00173,Potential Loyalists,8,46,1639.29,119.5,Medium,171725.56,Pareto Top 20%
+CUST_00174,Loyal Customers,113,2,288.85,7.77,Low,1055.67,Remaining 80%
+CUST_00175,At Risk,355,43,956.2,95.84,High,84189.64,Pareto Top 20%
+CUST_00176,Loyal Customers,253,1,515.46,7.55,Low,1730.21,Remaining 80%
+CUST_00177,At Risk,180,36,684.67,79.4,High,70295.56,Remaining 80%
+CUST_00178,Potential Loyalists,207,26,749.91,59.98,Medium,48590.03,Remaining 80%
+CUST_00179,New Customers,303,29,371.44,62.04,Medium,16431.56,Remaining 80%
+CUST_00180,Champions,127,21,411.86,46.9,Low,30140.51,Remaining 80%
+CUST_00181,Loyal Customers,56,11,380.77,27.56,Low,11907.44,Remaining 80%
+CUST_00182,Champions,214,40,463.44,85.1,Low,39556.36,Remaining 80%
+CUST_00183,New Customers,14,11,34.92,29.02,Medium,1251.67,Remaining 80%
+CUST_00184,New Customers,28,36,271.69,78.17,Medium,19726.62,Remaining 80%
+CUST_00185,Loyal Customers,78,49,485.94,104.13,Low,61623.81,Remaining 80%
+CUST_00186,At Risk,216,39,475.31,83.21,High,51387.44,Remaining 80%
+CUST_00187,Lost Customers,154,40,807.41,88.72,Critical,62723.7,Pareto Top 20%
+CUST_00188,At Risk,14,35,552.12,82.19,High,66799.79,Remaining 80%
+CUST_00189,Potential Loyalists,187,34,2442.56,92.96,Medium,248840.81,Pareto Top 20%
+CUST_00190,Loyal Customers,312,47,186.94,96.19,Low,22981.36,Remaining 80%
+CUST_00191,Champions,7,24,242.48,62.92,Low,10831.23,Remaining 80%
+CUST_00192,New Customers,3,22,262.13,71.62,Medium,9271.48,Remaining 80%
+CUST_00193,New Customers,111,5,333.5,14.23,Medium,3568.65,Remaining 80%
+CUST_00194,At Risk,238,33,923.94,75.66,High,91664.42,Pareto Top 20%
+CUST_00195,Loyal Customers,363,36,154.46,73.82,Low,11336.11,Remaining 80%
+CUST_00196,Loyal Customers,239,47,768.06,102.1,Low,93102.92,Pareto Top 20%
+CUST_00197,At Risk,274,20,279.86,43.16,High,16544.73,Remaining 80%
+CUST_00198,New Customers,294,19,480.47,43.14,Medium,15664.22,Remaining 80%
+CUST_00199,New Customers,227,35,520.57,75.64,Medium,52302.12,Remaining 80%
+CUST_00200,Lost Customers,15,43,253.28,94.78,Critical,18337.7,Remaining 80%
+CUST_00201,At Risk,192,17,379.35,38.31,High,22121.57,Remaining 80%
+CUST_00202,Champions,119,45,286.39,93.7,Low,31919.73,Remaining 80%
+CUST_00203,Loyal Customers,28,43,55.82,90.01,Low,4323.71,Remaining 80%
+CUST_00204,New Customers,202,34,307.38,71.57,Medium,22832.83,Remaining 80%
+CUST_00205,At Risk,39,9,71.23,21.21,High,1491.66,Remaining 80%
+CUST_00206,Champions,273,26,279.61,55.16,Low,21928.59,Remaining 80%
+CUST_00207,Champions,231,2,469.37,9.12,Low,2803.87,Remaining 80%
+CUST_00208,At Risk,86,9,453.05,23.68,High,11106.49,Remaining 80%
+CUST_00209,Champions,126,9,563.27,24.42,Low,8678.16,Remaining 80%
+CUST_00210,Loyal Customers,300,40,70.05,81.03,Low,5052.39,Remaining 80%
+CUST_00211,Potential Loyalists,25,17,547.95,43.33,Medium,15719.44,Remaining 80%
+CUST_00212,At Risk,145,1,207.09,4.76,High,549.69,Remaining 80%
+CUST_00213,At Risk,13,25,274.62,59.89,High,22342.24,Remaining 80%
+CUST_00214,Loyal Customers,212,43,995.92,96.43,Low,101391.47,Pareto Top 20%
+CUST_00215,At Risk,25,40,24.54,84.09,High,1788.18,Remaining 80%
+CUST_00216,Loyal Customers,68,42,463.87,90.09,Low,50967.97,Remaining 80%
+CUST_00217,Loyal Customers,67,25,476.54,56.24,Low,37211.87,Remaining 80%
+CUST_00218,At Risk,233,39,272.64,81.15,High,31722.63,Remaining 80%
+CUST_00219,At Risk,109,35,155.27,72.46,High,17732.08,Remaining 80%
+CUST_00220,Lost Customers,146,3,153.73,8.22,Critical,948.12,Remaining 80%
+CUST_00221,At Risk,111,37,1095.83,85.85,High,76546.56,Pareto Top 20%
+CUST_00222,At Risk,228,44,311.72,91.55,High,44708.08,Remaining 80%
+CUST_00223,Champions,111,44,220.9,91.1,Low,27361.85,Remaining 80%
+CUST_00224,Potential Loyalists,34,30,317.81,66.04,Medium,20230.43,Remaining 80%
+CUST_00225,Loyal Customers,111,38,573.41,82.63,Low,65035.27,Remaining 80%
+CUST_00226,Loyal Customers,264,34,98.77,69.37,Low,10511.9,Remaining 80%
+CUST_00227,New Customers,236,12,318.4,27.61,Medium,10430.62,Remaining 80%
+CUST_00228,Potential Loyalists,83,19,463.23,43.82,Medium,25310.7,Remaining 80%
+CUST_00229,New Customers,42,37,1503.9,91.36,Medium,125228.6,Pareto Top 20%
+CUST_00230,At Risk,101,44,165.53,90.64,High,18771.97,Remaining 80%
+CUST_00231,Lost Customers,6,49,242.56,114.71,Critical,30287.88,Remaining 80%
+CUST_00232,Potential Loyalists,180,17,258.5,37.14,Medium,14045.24,Remaining 80%
+CUST_00233,At Risk,282,10,485.12,25.2,High,15426.47,Remaining 80%
+CUST_00234,Potential Loyalists,320,49,240.6,100.72,Medium,37317.71,Remaining 80%
+CUST_00235,Loyal Customers,226,47,401.26,98.45,Low,28704.93,Remaining 80%
+CUST_00236,At Risk,315,12,781.15,32.13,High,28112.88,Pareto Top 20%
+CUST_00237,Loyal Customers,229,16,631.04,38.75,Low,30465.12,Remaining 80%
+CUST_00238,Champions,289,24,315.63,51.5,Low,21640.28,Remaining 80%
+CUST_00239,At Risk,150,19,1018.35,48.85,High,58288.38,Pareto Top 20%
+CUST_00240,Loyal Customers,277,8,428.38,20.64,Low,10911.49,Remaining 80%
+CUST_00241,New Customers,198,31,408.16,66.58,Medium,30881.3,Remaining 80%
+CUST_00242,New Customers,70,21,37.39,43.78,Medium,1966.19,Remaining 80%
+CUST_00243,New Customers,112,17,2179.73,56.68,Medium,64825.78,Pareto Top 20%
+CUST_00244,Potential Loyalists,4,23,85.61,66.86,Medium,4471.18,Remaining 80%
+CUST_00245,Champions,350,37,151.42,75.8,Low,15612.77,Remaining 80%
+CUST_00246,New Customers,331,16,46.54,32.77,Medium,2279.19,Remaining 80%
+CUST_00247,Potential Loyalists,318,6,530.83,17.62,Medium,6161.08,Remaining 80%
+CUST_00248,New Customers,350,8,147.25,17.76,Medium,2091.71,Remaining 80%
+CUST_00249,New Customers,95,25,119.23,52.23,Medium,8423.85,Remaining 80%
+CUST_00250,New Customers,152,18,66.36,37.32,Medium,1796.21,Remaining 80%
+CUST_00251,Loyal Customers,311,25,74.52,51.07,Low,3459.12,Remaining 80%
+CUST_00252,Potential Loyalists,137,12,459.34,29.32,Medium,8588.61,Remaining 80%
+CUST_00253,New Customers,247,15,602.71,36.43,Medium,16578.47,Remaining 80%
+CUST_00254,Loyal Customers,243,26,273.23,55.14,Low,13232.15,Remaining 80%
+CUST_00255,Loyal Customers,31,41,346.86,88.59,Low,32358.3,Remaining 80%
+CUST_00256,At Risk,40,45,599.13,98.43,High,62135.44,Remaining 80%
+CUST_00257,New Customers,229,26,28.77,52.72,Medium,2429.96,Remaining 80%
+CUST_00258,At Risk,36,47,215.14,98.85,High,25483.4,Remaining 80%
+CUST_00259,At Risk,223,32,1827.77,82.72,High,172354.88,Pareto Top 20%
+CUST_00260,Champions,6,10,453.88,38.82,Low,7753.52,Remaining 80%
+CUST_00261,At Risk,322,16,166.67,33.98,High,5202.44,Remaining 80%
+CUST_00262,New Customers,220,7,388.79,18.34,Medium,7908.46,Remaining 80%
+CUST_00263,Champions,75,17,229.77,37.61,Low,6271.65,Remaining 80%
+CUST_00264,Potential Loyalists,4,23,399.91,70.0,Medium,22748.28,Remaining 80%
+CUST_00265,New Customers,335,26,87.19,53.17,Medium,6117.88,Remaining 80%
+CUST_00266,At Risk,134,21,91.19,43.65,High,5178.69,Remaining 80%
+CUST_00267,At Risk,118,22,97.48,45.82,High,3315.2,Remaining 80%
+CUST_00268,At Risk,94,7,1425.21,29.3,High,21391.71,Pareto Top 20%
+CUST_00269,Potential Loyalists,62,14,680.06,36.39,Medium,26401.11,Remaining 80%
+CUST_00270,Loyal Customers,194,15,108.6,31.6,Low,2928.94,Remaining 80%
+CUST_00271,Lost Customers,335,7,124.34,15.54,Critical,2516.12,Remaining 80%
+CUST_00272,Lost Customers,203,9,676.21,25.25,Critical,18208.07,Remaining 80%
+CUST_00273,New Customers,26,48,104.9,100.75,Medium,17441.62,Remaining 80%
+CUST_00274,New Customers,173,8,153.65,18.11,Medium,2359.68,Remaining 80%
+CUST_00275,Potential Loyalists,300,23,1673.13,63.06,Medium,121228.33,Pareto Top 20%
+CUST_00276,Potential Loyalists,133,29,167.39,60.42,Medium,12332.83,Remaining 80%
+CUST_00277,Lost Customers,326,18,561.81,41.92,Critical,22722.21,Remaining 80%
+CUST_00278,At Risk,118,31,1942.91,82.27,High,105086.87,Pareto Top 20%
+CUST_00279,At Risk,324,30,254.44,62.85,High,22678.32,Remaining 80%
+CUST_00280,Lost Customers,275,39,28.84,78.65,Critical,2217.71,Remaining 80%
+CUST_00281,New Customers,212,35,159.95,72.07,Medium,12556.0,Remaining 80%
+CUST_00282,Loyal Customers,225,18,908.57,45.53,Low,26577.05,Pareto Top 20%
+CUST_00283,Potential Loyalists,20,42,1019.79,98.96,Medium,132893.75,Pareto Top 20%
+CUST_00284,Champions,113,39,751.63,86.39,Low,88913.25,Remaining 80%
+CUST_00285,At Risk,140,17,80.02,35.51,High,4036.44,Remaining 80%
+CUST_00286,Champions,47,14,813.62,38.22,Low,23907.75,Pareto Top 20%
+CUST_00287,Potential Loyalists,1,31,1274.67,124.75,Medium,72982.21,Pareto Top 20%
+CUST_00288,Potential Loyalists,90,24,478.91,53.89,Medium,31896.63,Remaining 80%
+CUST_00289,Loyal Customers,142,35,1434.05,85.04,Low,125094.54,Pareto Top 20%
+CUST_00290,At Risk,320,44,896.77,97.28,High,73253.75,Pareto Top 20%
+CUST_00291,Champions,38,45,569.76,98.26,Low,73631.23,Remaining 80%
+CUST_00292,Champions,293,34,450.41,72.84,Low,53327.01,Remaining 80%
+CUST_00293,Lost Customers,139,3,234.3,9.06,Critical,2104.79,Remaining 80%
+CUST_00294,Potential Loyalists,356,37,106.75,75.35,Medium,11770.15,Remaining 80%
+CUST_00295,Champions,333,43,484.38,91.14,Low,70829.38,Remaining 80%
+CUST_00296,Potential Loyalists,259,40,211.44,82.5,Medium,16119.11,Remaining 80%
+CUST_00297,Lost Customers,161,26,1026.6,62.88,Critical,70228.27,Pareto Top 20%
+CUST_00298,Loyal Customers,178,23,2525.59,71.81,Low,200945.41,Pareto Top 20%
+CUST_00299,At Risk,10,44,718.03,104.27,High,57834.36,Remaining 80%
+CUST_00300,Champions,261,39,67.42,79.06,Low,7626.53,Remaining 80%
+CUST_00301,Champions,138,15,190.32,32.62,Low,7626.94,Remaining 80%
+CUST_00302,Potential Loyalists,172,49,77.77,99.36,Medium,10185.92,Remaining 80%
+CUST_00303,Potential Loyalists,13,4,545.64,20.6,Medium,6319.26,Remaining 80%
+CUST_00304,At Risk,168,29,744.49,66.04,High,72526.56,Remaining 80%
+CUST_00305,At Risk,130,22,1319.65,57.96,High,88988.76,Pareto Top 20%
+CUST_00306,New Customers,84,25,308.28,54.26,Medium,12425.78,Remaining 80%
+CUST_00307,Potential Loyalists,321,13,1178.22,38.09,Medium,49097.52,Pareto Top 20%
+CUST_00308,Loyal Customers,319,18,1071.42,47.03,Low,37627.72,Pareto Top 20%
+CUST_00309,Lost Customers,101,33,210.77,69.09,Critical,15676.3,Remaining 80%
+CUST_00310,Loyal Customers,329,16,1035.9,42.66,Low,40167.49,Pareto Top 20%
+CUST_00311,Potential Loyalists,273,45,255.54,92.92,Medium,28309.11,Remaining 80%
+CUST_00312,Champions,265,42,196.11,86.34,Low,19523.76,Remaining 80%
+CUST_00313,Champions,38,44,543.59,96.0,Low,80716.1,Remaining 80%
+CUST_00314,New Customers,94,2,219.03,7.24,Medium,1275.65,Remaining 80%
+CUST_00315,Lost Customers,95,35,517.41,76.22,Critical,50024.21,Remaining 80%
+CUST_00316,At Risk,305,42,490.59,89.23,High,32961.14,Remaining 80%
+CUST_00317,Potential Loyalists,69,34,434.41,73.77,Medium,48856.4,Remaining 80%
+CUST_00318,Loyal Customers,318,30,259.36,62.91,Low,25822.77,Remaining 80%
+CUST_00319,Loyal Customers,236,13,417.59,30.6,Low,16614.04,Remaining 80%
+CUST_00320,Loyal Customers,334,13,473.77,31.04,Low,9325.1,Remaining 80%
+CUST_00321,Potential Loyalists,137,18,414.48,40.87,Medium,12045.65,Remaining 80%
+CUST_00322,At Risk,76,32,313.87,68.44,High,19589.98,Remaining 80%
+CUST_00323,At Risk,35,32,27.39,67.05,High,1544.97,Remaining 80%
+CUST_00324,Loyal Customers,1,35,462.23,124.62,Low,37171.85,Remaining 80%
+CUST_00325,New Customers,296,39,112.23,79.46,Medium,14642.04,Remaining 80%
+CUST_00326,At Risk,320,46,534.42,97.66,High,60084.61,Remaining 80%
+CUST_00327,At Risk,60,29,732.19,66.96,High,32419.43,Remaining 80%
+CUST_00328,At Risk,320,49,367.02,101.98,High,37145.76,Remaining 80%
+CUST_00329,Potential Loyalists,349,29,410.84,62.39,Medium,18934.18,Remaining 80%
+CUST_00330,Loyal Customers,328,44,1532.87,103.63,Low,106064.35,Pareto Top 20%
+CUST_00331,Potential Loyalists,267,16,959.21,41.97,Medium,31484.18,Pareto Top 20%
+CUST_00332,Lost Customers,361,44,1248.08,100.76,Critical,112644.07,Pareto Top 20%
+CUST_00333,Champions,229,47,860.38,103.04,Low,124316.22,Pareto Top 20%
+CUST_00334,Champions,270,10,77.66,21.15,Low,2679.01,Remaining 80%
+CUST_00335,Champions,316,30,100.67,61.32,Low,6772.32,Remaining 80%
+CUST_00336,Champions,286,25,393.93,54.29,Low,23219.95,Remaining 80%
+CUST_00337,New Customers,291,39,161.23,79.95,Medium,20055.98,Remaining 80%
+CUST_00338,At Risk,213,20,343.8,43.91,High,14001.45,Remaining 80%
+CUST_00339,Potential Loyalists,165,5,270.74,13.31,Medium,2453.94,Remaining 80%
+CUST_00340,Champions,5,1,418.6,22.85,Low,1342.11,Remaining 80%
+CUST_00341,Potential Loyalists,339,30,706.94,67.36,Medium,33784.69,Remaining 80%
+CUST_00342,Potential Loyalists,78,49,648.5,105.75,Medium,87048.51,Remaining 80%
+CUST_00343,Loyal Customers,62,3,388.27,11.47,Low,3056.44,Remaining 80%
+CUST_00344,Potential Loyalists,132,45,884.09,99.59,Medium,87200.31,Pareto Top 20%
+CUST_00345,Potential Loyalists,89,14,301.82,32.13,Medium,9001.87,Remaining 80%
+CUST_00346,At Risk,237,30,1155.13,71.97,High,105476.61,Pareto Top 20%
+CUST_00347,At Risk,42,4,56.97,10.9,High,381.21,Remaining 80%
+CUST_00348,Champions,89,18,1566.78,52.78,Low,55658.66,Pareto Top 20%
+CUST_00349,Potential Loyalists,296,37,551.66,79.85,Medium,60517.77,Remaining 80%
+CUST_00350,At Risk,328,25,259.08,52.89,High,16818.44,Remaining 80%
+CUST_00351,Potential Loyalists,295,48,129.8,97.64,Medium,10940.44,Remaining 80%
+CUST_00352,New Customers,104,1,346.18,6.41,Medium,1130.03,Remaining 80%
+CUST_00353,At Risk,14,46,128.18,99.95,High,13484.18,Remaining 80%
+CUST_00354,Loyal Customers,288,15,110.96,31.46,Low,5252.41,Remaining 80%
+CUST_00355,Champions,179,9,500.32,23.56,Low,13848.27,Remaining 80%
+CUST_00356,At Risk,125,15,390.21,34.7,High,16089.44,Remaining 80%
+CUST_00357,Champions,353,49,574.48,104.03,Low,70063.09,Remaining 80%
+CUST_00358,At Risk,23,24,1346.82,65.63,High,111810.9,Pareto Top 20%
+CUST_00359,New Customers,63,4,399.92,13.56,Medium,2863.32,Remaining 80%
+CUST_00360,At Risk,143,12,454.86,29.24,High,16103.74,Remaining 80%
+CUST_00361,Potential Loyalists,153,37,66.95,75.32,Medium,4662.94,Remaining 80%
+CUST_00362,At Risk,145,37,652.28,81.21,High,52529.07,Remaining 80%
+CUST_00363,Potential Loyalists,225,43,275.33,89.2,Medium,25068.27,Remaining 80%
+CUST_00364,Potential Loyalists,309,6,1900.19,31.32,Medium,38696.29,Pareto Top 20%
+CUST_00365,New Customers,104,39,886.29,87.82,Medium,118721.9,Pareto Top 20%
+CUST_00366,Potential Loyalists,104,46,389.58,96.85,Medium,33440.54,Remaining 80%
+CUST_00367,New Customers,39,24,85.75,51.36,Medium,3177.7,Remaining 80%
+CUST_00368,New Customers,198,11,1000.97,32.51,Medium,32371.55,Pareto Top 20%
+CUST_00369,Loyal Customers,134,13,824.17,34.98,Low,25028.18,Pareto Top 20%
+CUST_00370,Champions,67,34,122.03,70.69,Low,6960.73,Remaining 80%
+CUST_00371,Champions,179,25,194.98,52.51,Low,13977.67,Remaining 80%
+CUST_00372,Champions,42,7,808.5,24.41,Low,14659.3,Pareto Top 20%
+CUST_00373,Champions,15,4,122.42,15.47,Low,1694.8,Remaining 80%
+CUST_00374,At Risk,111,8,1269.01,29.58,High,19845.48,Pareto Top 20%
+CUST_00375,Champions,157,20,296.28,43.6,Low,13676.02,Remaining 80%
+CUST_00376,Loyal Customers,289,29,65.53,59.0,Low,4912.63,Remaining 80%
+CUST_00377,Lost Customers,231,45,865.73,99.09,Critical,120122.63,Pareto Top 20%
+CUST_00378,Champions,157,46,253.81,95.17,Low,30328.56,Remaining 80%
+CUST_00379,Lost Customers,38,10,393.8,26.5,Critical,10734.2,Remaining 80%
+CUST_00380,Loyal Customers,97,43,79.56,87.82,Low,6678.95,Remaining 80%
+CUST_00381,Champions,289,34,21.29,68.56,Low,2311.89,Remaining 80%
+CUST_00382,At Risk,254,26,528.04,57.67,High,32362.93,Remaining 80%
+CUST_00383,At Risk,196,41,381.98,86.33,High,27906.96,Remaining 80%
+CUST_00384,New Customers,86,49,470.13,103.85,Medium,65155.51,Remaining 80%
+CUST_00385,At Risk,322,3,809.32,14.4,High,4691.26,Pareto Top 20%
+CUST_00386,Lost Customers,10,6,540.09,26.49,Critical,5493.12,Remaining 80%
+CUST_00387,Loyal Customers,5,5,116.05,27.83,Low,1870.71,Remaining 80%
+CUST_00388,Loyal Customers,123,5,243.75,13.24,Low,2949.77,Remaining 80%
+CUST_00389,Lost Customers,330,47,1201.65,106.32,Critical,169351.74,Pareto Top 20%
+CUST_00390,Lost Customers,353,23,754.72,53.83,Critical,36126.2,Remaining 80%
+CUST_00391,New Customers,118,49,426.68,103.11,Medium,64267.85,Remaining 80%
+CUST_00392,Potential Loyalists,294,9,167.62,20.02,Medium,2600.6,Remaining 80%
+CUST_00393,Potential Loyalists,159,35,199.81,72.62,Medium,15468.92,Remaining 80%
+CUST_00394,Lost Customers,303,20,678.31,47.11,Critical,46886.46,Remaining 80%
+CUST_00395,Loyal Customers,228,49,972.49,108.16,Low,147148.43,Pareto Top 20%
+CUST_00396,New Customers,216,42,576.49,90.23,Medium,60398.57,Remaining 80%
+CUST_00397,New Customers,184,35,849.13,79.03,Medium,64775.39,Pareto Top 20%
+CUST_00398,Potential Loyalists,15,18,747.62,49.73,Medium,43658.68,Remaining 80%
+CUST_00399,Lost Customers,157,17,101.09,35.64,Critical,4450.47,Remaining 80%
+CUST_00400,Lost Customers,136,24,295.78,51.69,Critical,21415.77,Remaining 80%
+CUST_00401,Champions,261,3,103.02,7.41,Low,929.72,Remaining 80%
+CUST_00402,New Customers,157,32,154.09,66.17,Medium,7573.3,Remaining 80%
+CUST_00403,Potential Loyalists,47,35,1037.27,82.46,Medium,63623.82,Pareto Top 20%
+CUST_00404,Lost Customers,324,38,340.17,79.71,Critical,36443.04,Remaining 80%
+CUST_00405,Loyal Customers,332,13,403.24,30.33,Low,9557.64,Remaining 80%
+CUST_00406,New Customers,173,47,118.28,95.76,Medium,11179.4,Remaining 80%
+CUST_00407,Potential Loyalists,130,25,207.18,52.84,Medium,17575.47,Remaining 80%
+CUST_00408,Champions,95,9,150.84,20.55,Low,3557.3,Remaining 80%
+CUST_00409,New Customers,115,4,135.45,10.22,Medium,1626.19,Remaining 80%
+CUST_00410,Champions,243,14,528.0,33.69,Low,19337.19,Remaining 80%
+CUST_00411,Loyal Customers,292,37,168.45,76.03,Low,16236.22,Remaining 80%
+CUST_00412,New Customers,282,34,519.86,73.55,Medium,29841.18,Remaining 80%
+CUST_00413,New Customers,299,11,50.12,22.83,Medium,1205.92,Remaining 80%
+CUST_00414,At Risk,283,41,96.44,83.32,High,8164.55,Remaining 80%
+CUST_00415,At Risk,69,3,180.47,9.23,High,1235.2,Remaining 80%
+CUST_00416,Potential Loyalists,148,28,474.47,61.42,Medium,41140.0,Remaining 80%
+CUST_00417,Loyal Customers,11,29,583.26,72.17,Low,37953.95,Remaining 80%
+CUST_00418,Loyal Customers,254,9,312.34,21.52,Low,6756.08,Remaining 80%
+CUST_00419,At Risk,330,3,315.11,9.45,High,2169.31,Remaining 80%
+CUST_00420,Lost Customers,360,25,664.61,56.92,Critical,28026.87,Remaining 80%
+CUST_00421,Lost Customers,38,34,27.97,70.84,Critical,2265.37,Remaining 80%
+CUST_00422,Lost Customers,134,12,228.58,27.03,Critical,5187.54,Remaining 80%
+CUST_00423,Champions,200,42,873.82,93.24,Low,68756.31,Pareto Top 20%
+CUST_00424,Potential Loyalists,23,9,482.19,26.99,Medium,7325.74,Remaining 80%
+CUST_00425,Champions,303,15,225.66,32.59,Low,7491.94,Remaining 80%
+CUST_00426,Potential Loyalists,346,40,1199.71,92.29,Medium,144683.29,Pareto Top 20%
+CUST_00427,Potential Loyalists,302,25,760.57,57.94,Medium,39034.04,Remaining 80%
+CUST_00428,New Customers,363,5,173.87,12.01,Medium,1847.11,Remaining 80%
+CUST_00429,Potential Loyalists,218,11,538.23,27.84,Medium,16490.74,Remaining 80%
+CUST_00430,Champions,141,34,472.86,73.43,Low,30413.02,Remaining 80%
+CUST_00431,Champions,104,24,276.4,51.72,Low,21850.52,Remaining 80%
+CUST_00432,Lost Customers,210,15,248.61,32.96,Critical,9473.46,Remaining 80%
+CUST_00433,At Risk,111,38,230.46,79.2,High,20975.97,Remaining 80%
+CUST_00434,Champions,104,8,500.06,21.95,Low,10463.82,Remaining 80%
+CUST_00435,Champions,316,5,312.07,13.44,Low,2858.67,Remaining 80%
+CUST_00436,At Risk,171,48,911.49,105.7,High,119308.04,Pareto Top 20%
+CUST_00437,Champions,356,26,573.73,58.02,Low,33208.2,Remaining 80%
+CUST_00438,Lost Customers,324,18,56.25,36.87,Critical,3335.55,Remaining 80%
+CUST_00439,At Risk,133,6,531.06,18.06,High,5855.6,Remaining 80%
+CUST_00440,Champions,293,37,178.14,76.12,Low,16570.9,Remaining 80%
+CUST_00441,Champions,328,48,469.24,101.0,Low,60728.48,Remaining 80%
+CUST_00442,New Customers,127,13,589.92,32.68,Medium,12015.48,Remaining 80%
+CUST_00443,Potential Loyalists,106,28,151.22,58.45,Medium,9431.11,Remaining 80%
+CUST_00444,Potential Loyalists,92,5,325.19,14.33,Medium,4821.38,Remaining 80%
+CUST_00445,Lost Customers,287,13,125.56,27.6,Critical,5126.59,Remaining 80%
+CUST_00446,New Customers,51,17,46.88,36.39,Medium,1694.6,Remaining 80%
+CUST_00447,New Customers,29,40,257.79,85.91,Medium,31936.95,Remaining 80%
+CUST_00448,Lost Customers,296,45,245.45,92.79,Critical,37946.09,Remaining 80%
+CUST_00449,Potential Loyalists,297,32,2719.68,91.53,Medium,279691.71,Pareto Top 20%
+CUST_00450,Champions,214,29,315.61,61.62,Low,15882.55,Remaining 80%
+CUST_00451,Lost Customers,267,3,222.91,8.6,Critical,1992.45,Remaining 80%
+CUST_00452,At Risk,257,40,454.32,84.93,High,38877.68,Remaining 80%
+CUST_00453,Potential Loyalists,302,34,66.48,68.99,Medium,7858.75,Remaining 80%
+CUST_00454,New Customers,101,40,1650.71,97.49,Medium,163137.55,Pareto Top 20%
+CUST_00455,Champions,346,27,523.87,59.53,Low,24680.27,Remaining 80%
+CUST_00456,Potential Loyalists,110,13,722.92,34.13,Medium,27727.47,Remaining 80%
+CUST_00457,Champions,182,45,113.45,91.68,Low,10955.98,Remaining 80%
+CUST_00458,Potential Loyalists,313,33,283.37,69.15,Medium,32674.59,Remaining 80%
+CUST_00459,Champions,1,6,294.69,64.95,Low,6117.0,Remaining 80%
+CUST_00460,Champions,319,24,882.44,57.14,Low,59559.79,Pareto Top 20%
+CUST_00461,Champions,55,19,20.62,39.99,Low,689.4,Remaining 80%
+CUST_00462,At Risk,149,16,198.95,34.66,High,9147.63,Remaining 80%
+CUST_00463,At Risk,309,40,2007.92,100.4,High,135419.02,Pareto Top 20%
+CUST_00464,At Risk,137,28,342.07,60.15,High,14929.44,Remaining 80%
+CUST_00465,New Customers,202,33,261.06,69.1,Medium,27102.01,Remaining 80%
+CUST_00466,Potential Loyalists,313,48,83.82,97.16,Medium,7722.86,Remaining 80%
+CUST_00467,Loyal Customers,117,41,1848.01,101.33,Low,171089.18,Pareto Top 20%
+CUST_00468,New Customers,154,13,30.11,26.95,Medium,1349.23,Remaining 80%
+CUST_00469,Loyal Customers,291,43,688.14,93.22,Low,64319.26,Remaining 80%
+CUST_00470,New Customers,63,45,751.8,99.08,Medium,70807.59,Remaining 80%
+CUST_00471,Champions,244,25,159.63,52.0,Low,13314.8,Remaining 80%
+CUST_00472,New Customers,25,42,576.7,93.61,Medium,41697.06,Remaining 80%
+CUST_00473,Champions,90,36,68.77,73.79,Low,7474.61,Remaining 80%
+CUST_00474,New Customers,75,27,168.56,57.0,Medium,15820.29,Remaining 80%
+CUST_00475,Potential Loyalists,294,38,795.35,84.29,Medium,99815.23,Pareto Top 20%
+CUST_00476,New Customers,210,7,1020.08,24.67,Medium,20017.39,Pareto Top 20%
+CUST_00477,Champions,347,5,488.87,15.18,Low,5201.87,Remaining 80%
+CUST_00478,At Risk,17,43,373.46,95.29,High,32256.37,Remaining 80%
+CUST_00479,New Customers,128,45,106.76,91.84,Medium,15078.03,Remaining 80%
+CUST_00480,Potential Loyalists,364,31,52.59,62.8,Medium,5314.16,Remaining 80%
+CUST_00481,At Risk,251,23,82.58,47.22,High,4844.97,Remaining 80%
+CUST_00482,At Risk,179,42,148.97,86.05,High,12442.65,Remaining 80%
+CUST_00483,Potential Loyalists,182,10,229.03,22.84,Medium,3952.8,Remaining 80%
+CUST_00484,At Risk,152,32,259.75,67.25,High,13917.27,Remaining 80%
+CUST_00485,At Risk,25,43,232.57,92.17,High,29383.05,Remaining 80%
+CUST_00486,New Customers,180,30,156.6,62.12,Medium,10994.44,Remaining 80%
+CUST_00487,Champions,198,39,376.39,82.27,Low,48598.75,Remaining 80%
+CUST_00488,Loyal Customers,344,31,892.3,71.21,Low,82412.49,Pareto Top 20%
+CUST_00489,New Customers,161,18,184.05,38.46,Medium,6236.6,Remaining 80%
+CUST_00490,New Customers,177,36,1447.0,87.03,Medium,142083.79,Pareto Top 20%
+CUST_00491,Potential Loyalists,285,2,1053.11,14.88,Medium,4993.87,Pareto Top 20%
+CUST_00492,At Risk,63,14,108.23,30.64,High,4022.15,Remaining 80%
+CUST_00493,Loyal Customers,150,13,791.53,34.58,Low,30624.14,Pareto Top 20%
+CUST_00494,Loyal Customers,154,29,447.35,63.12,Low,40377.53,Remaining 80%
+CUST_00495,Potential Loyalists,156,12,438.02,29.02,Medium,16754.13,Remaining 80%
+CUST_00496,Potential Loyalists,49,39,268.0,82.68,Medium,20987.09,Remaining 80%
+CUST_00497,At Risk,337,2,367.73,7.97,High,1148.96,Remaining 80%
+CUST_00498,Champions,84,32,273.07,67.91,Low,26027.63,Remaining 80%
+CUST_00499,New Customers,361,13,407.97,30.36,Medium,9083.43,Remaining 80%
+CUST_00500,New Customers,177,46,514.36,97.71,Medium,50393.19,Remaining 80%
